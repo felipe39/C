@@ -3,15 +3,13 @@
 int main(){
   int numero, i = 0;
 
-  printf("Digite um número: ");
-  scanf("%d",&numero);
-    while(numero >= 0){
+    do {
 
       printf("Digite um número: ");
       scanf("%d",&numero);
       if(numero >= 0)
 
       i++;
-    }
+    }while(numero >= 0);
     printf("Quantidade de números lidos: %d \n",i);
 }
