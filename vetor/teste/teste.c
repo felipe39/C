@@ -1,6 +1,11 @@
 #include<stdio.h>
-/*Faça um programa que leia 100 (comando for é o recomendado pois o núemro é definido)
-números inteiros positivos e mostre o maior dele*/
+/ *
+ * @author Falcão
+* @Data 4 / 12 / 21 de
+ *
+ * Faça um programa que leia 100 (comando for é o recomendado pois o núemro é definido)
+números inteiros positivos e mostre o maior dele*/. 
+
 int main(){
   int maiorNumero = 0, numero, i;
 
