@@ -1,5 +1,9 @@
 #include<stdio.h>
-/*Programa que ler números inteiros até que sejá digitado um número negativo*/
+/ *
+ * @author Falcão
+* @Data 4 / 12 / 21 de
+ *
+ * Programa que ler números inteiros até que sejá digitado um número negativo*/. 
 int main(){
   int numero, quantidade;
   numero = quantidade = 0;
