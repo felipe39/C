@@ -1,5 +1,10 @@
 #include<stdio.h>
-
+/ *
+ * @author Falcão
+ * @data 3/12/21
+ *
+ *Programa que recebe salario bruto, calcula salario liquido e mostra no final. 
+ */
 int main() {
 
   int i = 1;
