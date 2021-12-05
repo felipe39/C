@@ -6,7 +6,7 @@
  *
  *Antes de mais nada, é usado o comando FOR, pois os número são determinados
  *Programa que lê uma quantidade de números inteiros e o mostra na ordem inversa*/
-  int main(){
+  int main(void){
     int numero[4], posicao;//5 posições, começando de 0 até 4, que dá 5
 
     /*Percorrendo o vetor e, lendo os dados do zero até o número 4
