@@ -14,7 +14,6 @@ int main(){
   /*Percorrerá o 1 vetor preenchendo cada elemento*/
   for(posicao = 0; posicao <= tamanho; posicao++)
   {
-    printf("Digite um número: ");
     scanf("%d",&numero[posicao]);
     receberNumeros[posicao] = 0;// Todas as posições vão receber zero
 
@@ -24,6 +23,7 @@ int main(){
         receberNumeros[posicao] = numero[posicao] - 1;
 
   }
+      printf("Cada um dos elementos dos vetores\n");
       /*Percorrerá e imprimirá o conteúdo do vetor 2*/
       for(posicao = 0; posicao <= tamanho; posicao++)
       {
