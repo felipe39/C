@@ -17,20 +17,18 @@ int main(){
     printf("Digite um número: ");
     scanf("%d",&numero[posicao]);
     receberNumeros[posicao] = 0;// Todas as posições vão receber zero
-  }
-    /*Percorrerá ambos os vetores, transferindo o conteúdo do
-    vetor 1 para o vetor 2*/
-    for(posicao = 0; posicao <= tamanho; posicao++)
-    {
+
       if(numero[posicao]%2 == 0)
         receberNumeros[posicao] = numero[posicao] + 1;
       else
         receberNumeros[posicao] = numero[posicao] - 1;
-    }
+
+  }
       /*Percorrerá e imprimirá o conteúdo do vetor 2*/
       for(posicao = 0; posicao <= tamanho; posicao++)
       {
-        printf("Numeros equivalentes %d\n",receberNumeros[posicao]);
+        printf("\nNúmero do 1 vetor %d\n",numero[posicao]);
+        printf("Numero do 2 vetor %d\n",receberNumeros[posicao]);
       }
 
 }
