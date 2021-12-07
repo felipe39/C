@@ -10,5 +10,5 @@ int main(){
   char ch;
   printf("Introduza um caractere: ");
   ch = getchar();
-  printf("O caractere '%c' tem o ASCII n° %d\n", ch, ch);
+  printf("O caractere '%c' tem o ASCII n° %d\n", ch, (int)ch);
 }
